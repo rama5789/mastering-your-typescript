@@ -1,0 +1,26 @@
+{
+  "name": "ts-basic-tutorial",
+  "version": "1.0.0",
+  "description": "Typescript Basics",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "dev": "ts-node src/index.ts",
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "format": "prettier \"**/*.ts\" --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ncp": "2.0.0",
+    "prettier": "2.0.5",
+    "rimraf": "3.0.2",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.5"
+  },
+  "dependencies": {
+    "chalk": "4.0.0",
+    "moment": "2.26.0"
+  }
+}
